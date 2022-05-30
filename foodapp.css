@@ -1,0 +1,52 @@
+
+    body{
+        background-color: rgb(93, 150, 196);
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+    }
+    #foodshow{
+        border: 5px rgb(46, 2, 2) solid;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        background-color: white;
+    }
+   
+select{
+    height: 50px;
+}
+option,label{
+    font-size: 40px;
+}
+   .row{
+            
+            display: flex;
+            justify-content: space-between;
+            background-image: url("https://i.pinimg.com/736x/e6/7d/af/e67daf68a6e8f6d4a9283cb7d64b098c.jpg");
+            background-size: 100%;
+        }
+        .row>h1{
+            color: rgb(27, 25, 25);
+            
+            font-size: 60px;
+
+        }
+        .foodmeals{
+            box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+          display: flex;
+          flex-direction: column;
+          margin: 2%;
+          
+          align-items: center;
+    
+        }
+        .foodmeals>img{
+            width: 90%;
+        
+        }
+        .foodmeals>h1{
+            text-align: center;
+        }
+       .foodmeals:hover{
+           width: 103%;
+       }
+    
